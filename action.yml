@@ -1,7 +1,8 @@
-name: 'echo'
-description: 'hogehoge'
+name: 'Hello World'
+description: 'higehig'
 runs:
+  using: "composite"
   steps:
-      - name: Echo
-        run: echo workmotohoge
-        shell: bash
+    - name: Random Number Generator
+      run: echo hogehoge
+      shell: bash
